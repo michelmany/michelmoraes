@@ -43,23 +43,29 @@ const Contact = props => (
         </section>
 
         <section>
-          <ul class="icons">
+          <ul className="icons">
             <li>
               <a
                 href="https://www.linkedin.com/in/michelmany"
-                class="icon fa-linkedin"
+                className="icon fa-linkedin"
               >
-                <span class="label">Linkedin</span>
+                <span className="label">Linkedin</span>
               </a>
             </li>
             <li>
-              <a href="https://github.com/michelmany" class="icon fa-github">
-                <span class="label">Github</span>
+              <a
+                href="https://github.com/michelmany"
+                className="icon fa-github"
+              >
+                <span className="label">Github</span>
               </a>
             </li>
             <li>
-              <a href="https://twitter.com/michelmany" class="icon fa-twitter">
-                <span class="label">Twitter</span>
+              <a
+                href="https://twitter.com/michelmany"
+                className="icon fa-twitter"
+              >
+                <span className="label">Twitter</span>
               </a>
             </li>
           </ul>

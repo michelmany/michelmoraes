@@ -4,12 +4,12 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import Banner from '../components/Banner'
 
-import pic01 from '../assets/images/pic01.jpg'
-import pic02 from '../assets/images/pic02.jpg'
-import pic03 from '../assets/images/pic03.jpg'
-import pic04 from '../assets/images/pic04.jpg'
+import pic01 from '../assets/images/pic01.webp'
+import pic02 from '../assets/images/pic02.webp'
+import pic03 from '../assets/images/pic03.webp'
+import pic04 from '../assets/images/pic04.webp'
 import pic05 from '../assets/images/pic05.jpg'
-import pic06 from '../assets/images/pic06.jpg'
+import pic06 from '../assets/images/pic06.webp'
 
 class HomeIndex extends React.Component {
   render() {
@@ -34,28 +34,28 @@ class HomeIndex extends React.Component {
             <article style={{ backgroundImage: `url(${pic01})` }}>
               <header className="major">
                 <h3>LDC.com</h3>
-                <p>Ipsum dolor sit amet</p>
+                <p>Frontend + WordPress</p>
               </header>
               <Link to="/landing" className="link primary"></Link>
             </article>
             <article style={{ backgroundImage: `url(${pic02})` }}>
               <header className="major">
                 <h3>Carlsberg DraughtMaster</h3>
-                <p>feugiat amet tempus</p>
+                <p>Frontend Vue.js</p>
               </header>
               <Link to="/landing" className="link primary"></Link>
             </article>
             <article style={{ backgroundImage: `url(${pic03})` }}>
               <header className="major">
                 <h3>QBE Europe</h3>
-                <p>Lorem etiam nullam</p>
+                <p>Frontend</p>
               </header>
               <Link to="/landing" className="link primary"></Link>
             </article>
             <article style={{ backgroundImage: `url(${pic04})` }}>
               <header className="major">
                 <h3>Smiths Detection</h3>
-                <p>Nisl sed aliquam</p>
+                <p>Frontend + WordPress</p>
               </header>
               <Link to="/landing" className="link primary"></Link>
             </article>
