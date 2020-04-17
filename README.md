@@ -5,4 +5,4 @@ Gatsby.js
 
 ## Preview
 
-https://aws-amplify.dabn5wnvxcn1v.amplifyapp.com/
+https://www.michelmoraes.dev
